@@ -6,7 +6,7 @@ from chromadb.config import Settings
 # https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/excel.html?highlight=xlsx#microsoft-excel
 from langchain.document_loaders import CSVLoader, PDFMinerLoader, TextLoader, UnstructuredExcelLoader, Docx2txtLoader
 
-MODEL_PATH = os.path.expanduser( '~' ) + "/Models/Llama-2/llama-2-13b-chat.ggmlv3.q4_1.bin"
+MODEL_PATH = os.path.expanduser( '~' ) + "/Models/llama-2-13b-chat.ggmlv3.q4_1.bin"
 
 # Default Instructor Model
 EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"

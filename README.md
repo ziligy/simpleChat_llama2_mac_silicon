@@ -8,13 +8,9 @@ This repo is a distillation and riff based off [privateGPT](https://github.com/i
 - Models from [Hugging Face](https://huggingface.co)
 - [Gradio](https://www.gradio.app) UI
 
-
-
-
 ## Requirements
 - [Mac computer with Apple silicon](https://support.apple.com/en-us/HT211814)
 - [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) 
-
 
 ## Create & activate New Conda environment
 
@@ -24,6 +20,7 @@ conda activate simpleChat
 ```
 
 ## Clone the Repo
+
 ```shell
 git clone https://github.com/ziligy/simpleChat_llama2_mac_silicon simpleChat
 cd simpleChat
@@ -60,6 +57,17 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 pip install -r requirements.txt
 ```
 
+## Download GGML Model 
+
+This one or another 4-bit(preferred) GGML (required)
+
+[llama-2-13b-chat.ggmlv3.q4_1.bin](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/blob/main/llama-2-13b-chat.ggmlv3.q4_1.bin)
+
+Define MODEL_PATH in *constants.py* to set the location and name of the model you are using.
+
+(e.g in *constants.py*) MODEL_PATH = os.path.expanduser( '~' ) + "/Models/llama-2-13b-chat.ggmlv3.q4_1.bin"
+
+
 ## Starting the Gradio Server
 
 ```shell
@@ -70,7 +78,6 @@ You should see:
 *Running on local URL:  http://127.0.0.1:7861*
 
 cmd + click on the link to start the UI in your browser
-
 
 ## Instructions for ingesting your own dataset
 
