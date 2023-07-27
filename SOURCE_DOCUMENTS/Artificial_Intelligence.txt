@@ -1,0 +1,224 @@
+Artificial intelligence (AI) is the intelligence of machines or software, as opposed to the intelligence of human beings or animals. AI applications include advanced web search engines (e.g., Google Search), recommendation systems (used by YouTube, Amazon, and Netflix), understanding human speech (such as Siri and Alexa), self-driving cars (e.g., Waymo), generative or creative tools (ChatGPT and AI art), and competing at the highest level in strategic games (such as chess and Go).
+
+Artificial intelligence was founded as an academic discipline in 1956.[3] The field went through multiple cycles of optimism[4][5] followed by disappointment and loss of funding.[6][7] In the first decade of the 21st century, highly mathematical and statistical machine learning proved highly successful, helping to solve many challenging problems throughout industry and academia. After 2012, deep learning surpassed all previous AI techniques on industry benchmarks, leading to a vast increase in funding and interest.[10]
+
+Economists have frequently highlighted the risks of redundancies from AI, and speculated about unemployment if there is no adequate social policy for full employment.[11]
+
+Goals:
+The general problem of simulating (or creating) intelligence has been broken down into sub-problems. These consist of particular traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention and cover the scope of AI research.
+
+Reasoning, problem-solving:
+Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions. By the late 1980s and 1990s, methods were developed for dealing with uncertain or incomplete information, employing concepts from probability and economics.
+
+Many of these algorithms are insufficient for solving large reasoning problems because they experience a "combinatorial explosion": they became exponentially slower as the problems grew larger.[14] Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments.[15] Accurate and efficient reasoning is an unsolved problem.
+
+Knowledge representation:
+Knowledge representation and knowledge engineering[16] allow AI programs to answer questions intelligently and make deductions about real-world facts. Formal knowledge representations are used in content-based indexing and retrieval, scene interpretation,[18] clinical decision support, knowledge discovery (mining "interesting" and actionable inferences from large databases), and other areas.
+
+A knowledge base is a body of knowledge represented in a form that can be used by a program. An ontology is the set of objects, relations, concepts, and properties used by domain of knowledge. The most general ontologies are called upper ontologies, which attempt to provide a foundation for all other knowledge and act as mediators between domain ontologies that cover specific knowledge about a particular domain (field of interest or area of concern).
+
+Knowledge bases need to represent things such as: objects, properties, categories and relations between objects;  situations, events, states and time; causes and effects; knowledge about knowledge (what we know about what other people know); default reasoning (things that humans assume are true until they are told differently and will remain true even when other facts are changing); and many other aspects and domains of knowledge.
+
+Among the most difficult problems in KR are: the breadth of commonsense knowledge (the set of atomic facts that the average person knows) is enormous;[28] the difficulty of knowledge acquisition and the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as "facts" or "statements" that they could express verbally).[15]
+
+Planning and decision making:	
+This section needs expansion. You can help by adding to it. (July 2023)
+Automated planning[29] and automated decision making[30] are part of AI.
+
+Learning:
+Machine learning is the study of programs that can improve their performance on a given task automatically.[31] It has been a part of AI from the beginning.[b]
+
+There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance.[34] Supervised learning requires a human to label the input data first, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input).[35] [36] In reinforcement learning the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good".[37] Transfer learning is when the knowledge gained from one problem is applied to a new problem.[38]
+
+Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.[39]
+
+Natural language processing:
+Natural language processing (NLP)[40] allows programs to read, write and communicate in human languages such as English. Specific problems include speech recognition, speech synthesis, machine translation, information extraction, information retrieval and question answering.[41]
+
+Early work, based on Noam Chomsky's generative grammar, had difficulty with word-sense disambiguation[c] unless restricted to small domains called "micro-worlds" (due to the common sense knowledge problem[28]).
+
+Modern deep learning techniques for NLP include word embedding (how often one word appears near another),[42] transformers (which finds patterns in text),[43] and others.[44] In 2019, generative pre-trained transformer (or "GPT") language models began to generate coherent text,[45][46] and by 2023 these models were able to get human-level scores on the bar exam, SAT, GRE, and many other real-world applications.[47]
+
+Perception:
+Machine perception is the ability to use input from sensors (such as cameras, microphones, wireless signals, active lidar, sonar, radar, and tactile sensors) to deduce aspects of the world. Computer vision is the ability to analyze visual input.[48] The field includes speech recognition,[49] image classification,[50] facial recognition, object recognition,[51] and robotic perception.[52]
+
+Robotics:
+This section needs expansion. You can help by adding to it. (July 2023)
+Robotics[53] uses AI.
+
+Social intelligence:
+Affective computing is an interdisciplinary umbrella that comprises systems that recognize, interpret, process or simulate human feeling, emotion and mood.[55] For example, some virtual assistants are programmed to speak conversationally or even to banter humorously; it makes them appear more sensitive to the emotional dynamics of human interaction, or to otherwise facilitate human–computer interaction. However, this tends to give naïve users an unrealistic conception of how intelligent existing computer agents actually are.[56] Moderate successes related to affective computing include textual sentiment analysis and, more recently, multimodal sentiment analysis, wherein AI classifies the affects displayed by a videotaped subject.[57]
+
+General intelligence:
+A machine with artificial general intelligence should be able to solve a wide variety of problems with breadth and versatility similar to human intelligence.[58]
+
+
+Logic:
+Main articles: Logic programming and Automated reasoning
+Logic[59] is used for highly formalized kinds of knowledge representation and problem-solving, but it can be applied to other areas as well, although it is not effective in real-world circumstances where faster, probabilistic reasoning is required.
+
+Search and optimization:
+Main articles: Search algorithm, Mathematical optimization, and Evolutionary computation
+The goal of learning, i.e. finding and applying useful solutions to a problem, can be achieved by intelligently searching through many possible solutions.[60] However, because the search space (the number of places to search) quickly grows to astronomical numbers, such a search doesn't deliver results in a timely fashion. Often "heuristics" or "rules of thumb" are needed to prioritize choices in favor of those more likely to reach a goal and to do so in a shorter number of steps.
+
+A very different kind of search came to prominence in the 1990s, based on the mathematical theory of optimization. For many problems, it is possible to begin the search with some form of a guess and then refine the guess incrementally until no more refinements can be made. These algorithms can be visualized as blind hill climbing: we begin the search at a random point on the landscape, and then, by jumps or steps, we keep moving our guess uphill, until we reach the top.
+
+Evolutionary computation uses a form of optimization search. For example, they may begin with a population of organisms (the guesses) and then allow them to mutate and recombine, selecting only the fittest to survive each generation (refining the guesses).
+
+Alternatively, distributed search processes can coordinate via swarm intelligence algorithms. Two popular swarm algorithms used in search are particle swarm optimization (inspired by bird flocking) and ant colony optimization (inspired by ant trails).[61]
+
+Probabilistic methods for uncertain reasoning:
+Main articles: Bayesian network, Hidden Markov model, Kalman filter, Particle filter, Decision theory, and Utility theory
+Many problems in AI (including in reasoning, planning, learning, perception, and robotics) require the agent to operate with incomplete or uncertain information. AI researchers have devised a number of tools to solve these problems using methods from probability theory and economics.[62]
+
+Probabilistic algorithms can also be used for filtering, prediction, smoothing and finding explanations for streams of data, helping perception systems to analyze processes that occur over time (e.g., hidden Markov models or Kalman filters).[63]
+
+Precise mathematical tools have been developed that analyze how an agent can make choices and plan, using decision theory, decision analysis,[64] and information value theory.[65] These tools include models such as Markov decision processes,[66] dynamic decision networks,[63] game theory and mechanism design.[67]
+
+Classifiers and statistical learning methods:
+Main articles: Statistical classification and Machine learning
+The simplest AI applications can be divided into two types: classifiers (e.g. "if shiny then diamond"), on one hand, and controllers (e.g. "if diamond then pick up"), on the other hand. Controllers can, however, perform also the classification of the conditions before choosing an action to be implemented.
+
+Classifiers, on the other hand, are functions that use pattern matching to determine the closest match. They can be fine-tuned based on chosen examples, which makes them very useful.
+
+A machine learning classifier can use either statistical or artificial neural networks approaches[68], and its performance depends on the dataset size, distribution of samples across classes, dimensionality, and the level of noise.[69]
+
+Artificial neural networks:
+Main articles: Artificial neural network and Connectionism
+Modern neural networks model complex relationships between inputs and outputs and find patterns in data. They can learn continuous functions and even digital logical operations. Neural networks can be viewed as a type of mathematical optimization – they perform gradient descent on a multi-dimensional topology that was created by training the network. The most common training technique is the backpropagation algorithm.[70] Other learning techniques for neural networks are Hebbian learning ("fire together, wire together"), GMDH or competitive learning.[71]
+
+The main categories of networks include feedforward neural networks (where the signal passes in only one direction) and recurrent neural networks (which allow feedback and short-term memories of previous input events).
+
+Deep learning:
+Deep learning[73] uses several layers of neurons between the network's inputs and outputs. The multiple layers can progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits or letters or faces.[74]
+
+Deep learning has drastically improved the performance of programs in many important subfields of artificial intelligence, including computer vision, speech recognition, image classification[75] and others.
+
+Specialized hardware and software:
+Main articles: Programming languages for artificial intelligence and Hardware for artificial intelligence
+In late 2010s, graphics processing units (GPUs) that were increasingly designed with AI-specific enhancements and used with specialized TensorFlow software, had replaced previously used central processing unit (CPUs) as the dominant means for large-scale (commercial and academic) machine learning models' training.[76]
+
+Historically, specialized languages, such as Lisp, Prolog, and others, had been used.
+
+Applications:
+Main article: Applications of artificial intelligence
+See also: Embodied cognition and Legal informatics
+In the late 2010s and early 2020s, machine learning applications found their use in search engines (such as Google Search), targeting online advertisements,[77] recommendation systems (offered by Netflix, YouTube or Amazon), driving internet traffic,[78][79] targeted advertising (AdSense, Facebook), virtual assistants (such as Siri or Alexa),[80] autonomous vehicles (including drones, ADAS and self-driving cars), automatic language translation (Microsoft Translator, Google Translate), facial recognition (Apple's Face ID or Microsoft's DeepFace), image labeling (used by Facebook, Apple's iPhoto and TikTok), spam filtering and chatbots (such as ChatGPT).
+
+In the early 2020s, generative AI gained widespread prominence. ChatGPT, based on GPT-3, and other large language models, were tried by 14% of Americans adults.[81]
+
+In 2023, the increasing realism and ease-of-use of AI-based text-to-image generators such as Midjourney, DALL-E, and Stable Diffusion[82][83] sparked a trend of viral AI-generated photos. Widespread attention was gained by a fake photo of Pope Francis wearing a white puffer coat,[84] the fictional arrest of Donald Trump,[85] and a hoax of an attack on the Pentagon,[86] as well as the usage in professional creative arts.[87][88]
+
+There are also thousands of successful AI applications used to solve problems for specific industries or institutions. A few examples are energy storage,[89] deepfakes,[90] medical diagnosis, military logistics, foreign policy,[91] or supply chain management.
+
+In the 2010s, experimental applications were developed, such as DeepMind's model that could learn many diverse Atari games on its own[92] and AlphaFold 2 (2020), which demonstrated the ability to approximate, in hours rather than months, the 3D structure of a protein.[93] Other applications predict the result of judicial decisions,[94] create art (such as poetry or painting) and prove mathematical theorems.
+
+Intellectual property:
+In 2019, WIPO reported that AI was the most prolific emerging technology in terms of the number of patent applications and granted patents, the Internet of things was estimated to be the largest in terms of market size. It was followed, again in market size, by big data technologies, robotics, AI, 3D printing and the fifth generation of mobile services (5G).[95] Since AI emerged in the 1950s, 340,000 AI-related patent applications were filed by innovators and 1.6 million scientific papers have been published by researchers, with the majority of all AI-related patent filings published since 2013. Companies represent 26 out of the top 30 AI patent applicants, with universities or public research organizations accounting for the remaining four.[96] The ratio of scientific papers to inventions has significantly decreased from 8:1 in 2010 to 3:1 in 2016, which is attributed to be indicative of a shift from theoretical research to the use of AI technologies in commercial products and services. Machine learning is the dominant AI technique disclosed in patents and is included in more than one-third of all identified inventions (134,777 machine learning patents filed for a total of 167,038 AI patents filed in 2016), with computer vision being the most popular functional application. AI-related patents not only disclose AI techniques and applications, they often also refer to an application field or industry. Twenty application fields were identified in 2016 and included, in order of magnitude: telecommunications (15 percent), transportation (15 percent), life and medical sciences (12 percent), and personal devices, computing and human–computer interaction (11 percent). Other sectors included banking, entertainment, security, industry and manufacturing, agriculture, and networks (including social networks, smart cities and the Internet of things). IBM has the largest portfolio of AI patents with 8,290 patent applications, followed by Microsoft with 5,930 patent applications.[96]
+
+History:
+Main articles: History of artificial intelligence and Timeline of artificial intelligence
+The study of mechanical or "formal" reasoning began with philosophers and mathematicians in antiquity. The study of logic led directly to Alan Turing's theory of computation, which suggested that a machine, by shuffling symbols as simple as "0" and "1", could simulate both mathematical deduction and formal reasoning, which is known as the Church–Turing thesis.[97] This, along with at the time new discoveries in cybernetics and information theory, led researchers to consider the possibility of building an "electronic brain".[d][99] The first paper later recognized as "AI" was McCullouch and Pitts design for Turing-complete "artificial neurons" in 1943.[100]
+
+The field of AI research was founded at a workshop at Dartmouth College in 1956.[e][3] The attendees became the leaders of AI research in the 1960s.[f] They and their students produced programs that the press described as "astonishing":[g] computers were learning checkers strategies, solving word problems in algebra, proving logical theorems and speaking English.[h][4]
+
+By the middle of the 1960s, research in the U.S. was heavily funded by the Department of Defense[104] and laboratories had been established around the world.[105] Herbert Simon predicted, "machines will be capable, within twenty years, of doing any work a man can do".[106] Marvin Minsky agreed, writing, "within a generation ... the problem of creating 'artificial intelligence' will substantially be solved".[107]
+
+They had, however, underestimated the difficulty of the problem.[i] Both the U.S. and British governments cut off exploratory research in response to the criticism of Sir James Lighthill[109] and ongoing pressure from the US Congress to fund more productive projects. Minsky's and Papert's book Perceptrons was understood as proving that artificial neural networks approach would never be useful for solving real-world tasks, thus discrediting the approach altogether.[110] The "AI winter", a period when obtaining funding for AI projects was difficult, followed.[6]
+
+In the early 1980s, AI research was revived by the commercial success of expert systems,[111] a form of AI program that simulated the knowledge and analytical skills of human experts. By 1985, the market for AI had reached over a billion dollars. At the same time, Japan's fifth generation computer project inspired the U.S. and British governments to restore funding for academic research.[5] However, beginning with the collapse of the Lisp Machine market in 1987, AI once again fell into disrepute, and a second, longer-lasting winter began.[7]
+
+Many researchers began to doubt that the current practices would be able to imitate all the processes of human cognition, especially perception, robotics, learning and pattern recognition.[112] A number of researchers began to look into "sub-symbolic" approaches.[113] Robotics researchers, such as Rodney Brooks, rejected "representation" in general and focussed directly on engineering machines that move and survive.[j]. Judea Pearl, Lofti Zadeh and others developed methods that handled incomplete and uncertain information by making reasonable guesses rather than precise logic.[62][118] But the most important development was the revival of "connectionism", including neural network research, by Geoffrey Hinton and others.[119] In 1990, Yann LeCun successfully showed that convolutional neural networks can recognize handwritten digits, the first of many successful applications of neural networks.[120]
+
+AI gradually restored its reputation in the late 1990s and early 21st century by exploiting formal mathematical methods and by finding specific solutions to specific problems. This "narrow" and "formal" focus allowed researchers to produce verifiable results and collaborate with other fields (such as statistics, economics and mathematics).[121] By 2000, solutions developed by AI researchers were being widely used, although in the 1990s they were rarely described as "artificial intelligence".[9]
+
+Deep learning began to dominate industry benchmarks in 2012 and was adopted throughout the field.[10] For many specific tasks, other methods were abandoned.[k] Deep learning's success was based on both hardware improvements (faster computers,[123] graphics processing units, cloud computing[8]) and access to large amounts of data[124] (including curated datasets,[8] such as ImageNet).
+
+The machine learning achievements made it safe for media and businesses to refer to them as "AI" again. [l] The number of software projects that use machine learning at Google increased from a "sporadic usage" in 2012 to more than 2,700 projects in 2015.[8]
+
+In a 2017 survey, one in five companies reported they had incorporated "AI" in some offerings or processes".[125] The amount of machine learning research (measured by total publications) increased by 50% in the years 2015–2019.[126] According to 'AI Impacts', about $50 billion annually was invested in "AI" around 2022 in the US alone and about 20% of new US Computer Science PhD graduates have specialized in "AI";[127] about 800,000 "AI"-related US job openings existed in 2022.[128]
+
+In 2016, issues of fairness and the misuse of technology were catapulted into center stage at machine learning conferences, publications vastly increased, funding became available, and many researchers re-focussed their careers on these issues. The alignment problem became a serious field of academic study.[129]
+
+Philosophy:
+Main article: Philosophy of artificial intelligence
+Defining artificial intelligence
+
+Main articles: Turing test, Intelligent agent, Dartmouth workshop, and Synthetic intelligence
+Alan Turing wrote in 1950 "I propose to consider the question 'can machines think'?"[130] He advised changing the question from whether a machine "thinks", to "whether or not it is possible for machinery to show intelligent behaviour".[130] He devised the Turing test, which measures the ability of a machine to simulate human conversation.[131] Since we can only observe the behavior of the machine, it does not matter if it is "actually" thinking or literally has a "mind". Turing notes that we can not determine these things about other people[m] but "it is usual to have a polite convention that everyone thinks"[132]
+
+Russell and Norvig agree with Turing that AI must be defined in terms of "acting" and not "thinking".[133] However, they are critical that the test compares machines to people. "Aeronautical engineering texts," they wrote, "do not define the goal of their field as making 'machines that fly so exactly like pigeons that they can fool other pigeons.'"[134] AI founder John McCarthy agreed, writing that "Artificial intelligence is not, by definition, simulation of human intelligence".[135]
+
+McCarthy defines intelligence as "the computational part of the ability to achieve goals in the world."[136] Another AI founder, Marvin Minsky similarly defines it as "the ability to solve hard problems".[137] These definitions view intelligence in terms of well-defined problems with well-defined solutions, where both the difficulty of the problem and the performance of the program are direct measures of the "intelligence" of the machine—and no other philosophical discussion is required, or may not even be possible.
+
+A definition that has also been adopted by Google[138][better source needed] – major practitionary in the field of AI. This definition stipulated the ability of systems to synthesize information as the manifestation of intelligence, similar to the way it is defined in biological intelligence.
+
+Evaluating approaches to AI:
+No established unifying theory or paradigm has guided AI research for most of its history.[n] The unprecedented success of statistical machine learning in the 2010s eclipsed all other approaches (so much so that some sources, especially in the business world, use the term "artificial intelligence" to mean "machine learning with neural networks"). This approach is mostly sub-symbolic, neat, soft and narrow (see below). Critics argue that these questions may have to be revisited by future generations of AI researchers.
+
+Symbolic AI and its limits:
+Symbolic AI (or "GOFAI")[140] simulated the high-level conscious reasoning that people use when they solve puzzles, express legal reasoning and do mathematics. They were highly successful at "intelligent" tasks such as algebra or IQ tests. In the 1960s, Newell and Simon proposed the physical symbol systems hypothesis: "A physical symbol system has the necessary and sufficient means of general intelligent action."[141]
+
+However, the symbolic approach failed on many tasks that humans solve easily, such as learning, recognizing an object or commonsense reasoning. Moravec's paradox is the discovery that high-level "intelligent" tasks were easy for AI, but low level "instinctive" tasks were extremely difficult.[142] Philosopher Hubert Dreyfus had argued since the 1960s that human expertise depends on unconscious instinct rather than conscious symbol manipulation, and on having a "feel" for the situation, rather than explicit symbolic knowledge.[143] Although his arguments had been ridiculed and ignored when they were first presented, eventually, AI research came to agree.[o][15]
+
+The issue is not resolved: sub-symbolic reasoning can make many of the same inscrutable mistakes that human intuition does, such as algorithmic bias. Critics such as Noam Chomsky argue continuing research into symbolic AI will still be necessary to attain general intelligence,[145][146] in part because sub-symbolic AI is a move away from explainable AI: it can be difficult or impossible to understand why a modern statistical AI program made a particular decision. The emerging field of neuro-symbolic artificial intelligence attempts to bridge the two approaches.
+
+Neat vs. scruffy:
+Main article: Neats and scruffies
+"Neats" hope that intelligent behavior is described using simple, elegant principles (such as logic, optimization, or neural networks). "Scruffies" expect that it necessarily requires solving a large number of unrelated problems. Neats defend their programs with theoretical rigor, scruffies rely only on incremental testing to see if they work. This issue was actively discussed in the 70s and 80s,[147] but eventually was seen as irrelevant. In the 1990s mathematical methods and solid scientific standards became the norm, a transition that Russell and Norvig termed in 2003 as "the victory of the neats".[148] However in 2020 they wrote "deep learning may represent a resurgence of the scruffies".[112] Modern AI has elements of both.
+
+Soft vs. hard computing:
+Main article: Soft computing
+Finding a provably correct or optimal solution is intractable for many important problems.[14] Soft computing is a set of techniques, including genetic algorithms, fuzzy logic and neural networks, that are tolerant of imprecision, uncertainty, partial truth and approximation. Soft computing was introduced in the late 80s and most successful AI programs in the 21st century are examples of soft computing with neural networks.
+
+Narrow vs. general AI:
+Main article: Artificial general intelligence
+AI researchers are divided as to whether to pursue the goals of artificial general intelligence and superintelligence (general AI) directly or to solve as many specific problems as possible (narrow AI) in hopes these solutions will lead indirectly to the field's long-term goals.[149][150] General intelligence is difficult to define and difficult to measure, and modern AI has had more verifiable successes by focusing on specific problems with specific solutions. The experimental sub-field of artificial general intelligence studies this area exclusively.
+
+Machine consciousness, sentience and mind:
+Main articles: Philosophy of artificial intelligence and Artificial consciousness
+The philosophy of mind does not know whether a machine can have a mind, consciousness and mental states, in the same sense that human beings do. This issue considers the internal experiences of the machine, rather than its external behavior. Mainstream AI research considers this issue irrelevant because it does not affect the goals of the field: to build machines that can solve problems using intelligence. Russell and Norvig add that "[t]he additional project of making a machine conscious in exactly the way humans are is not one that we are equipped to take on."[151] However, the question has become central to the philosophy of mind. It is also typically the central question at issue in artificial intelligence in fiction.
+
+Consciousness:
+Main articles: Hard problem of consciousness and Theory of mind
+David Chalmers identified two problems in understanding the mind, which he named the "hard" and "easy" problems of consciousness.[152] The easy problem is understanding how the brain processes signals, makes plans and controls behavior. The hard problem is explaining how this feels or why it should feel like anything at all, assuming we are right in thinking that it truly does feel like something (Dennett's consciousness illusionism says this is an illusion). Human information processing is easy to explain, however, human subjective experience is difficult to explain. For example, it is easy to imagine a color-blind person who has learned to identify which objects in their field of view are red, but it is not clear what would be required for the person to know what red looks like.[153]
+
+Computationalism and functionalism:
+Main articles: Computational theory of mind, Functionalism (philosophy of mind), and Chinese room
+Computationalism is the position in the philosophy of mind that the human mind is an information processing system and that thinking is a form of computing. Computationalism argues that the relationship between mind and body is similar or identical to the relationship between software and hardware and thus may be a solution to the mind–body problem. This philosophical position was inspired by the work of AI researchers and cognitive scientists in the 1960s and was originally proposed by philosophers Jerry Fodor and Hilary Putnam.[154]
+
+Philosopher John Searle characterized this position as "strong AI": "The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds."[p] Searle counters this assertion with his Chinese room argument, which attempts to show that, even if a machine perfectly simulates human behavior, there is still no reason to suppose it also has a mind.[158]
+
+Robot rights:
+Main article: Robot rights
+If a machine has a mind and subjective experience, then it may also have sentience (the ability to feel), and if so it could also suffer; it has been argued that this could entitle it to certain rights.[159] Any hypothetical robot rights would lie on a spectrum with animal rights and human rights.[160] This issue has been considered in fiction for centuries,[161] and is now being considered by, for example, California's Institute for the Future; however, critics argue that the discussion is premature.[162]
+
+
+
+Superintelligence:
+Main articles: Superintelligence, Technological singularity, and Transhumanism
+A superintelligence is a hypothetical agent that would possess intelligence far surpassing that of the brightest and most gifted human mind.[150]
+
+If research into artificial general intelligence produced sufficiently intelligent software, it might be able to reprogram and improve itself. The improved software would be even better at improving itself, leading to recursive self-improvement.[163] Its intelligence would increase exponentially in an intelligence explosion and could dramatically surpass humans. Science fiction writer Vernor Vinge named this scenario the "singularity".[164] Because it is difficult or impossible to know the limits of intelligence or the capabilities of superintelligent machines, the technological singularity is an occurrence beyond which events are unpredictable or even unfathomable.[165]
+
+Robot designer Hans Moravec, cyberneticist Kevin Warwick, and inventor Ray Kurzweil have predicted that humans and machines will merge in the future into cyborgs that are more capable and powerful than either. This idea, called transhumanism, has roots in Aldous Huxley and Robert Ettinger.[166]
+
+Edward Fredkin argues that "artificial intelligence is the next stage in evolution", an idea first proposed by Samuel Butler's "Darwin among the Machines" as far back as 1863, and expanded upon by George Dyson in his book of the same name in 1998.[167]
+
+
+Existential risk:
+Main articles: Existential risk from artificial general intelligence, AI alignment, and AI safety
+It has been argued AI will become so powerful that humanity may irreversibly lose control of it. This could, as the physicist Stephen Hawking puts it, "spell the end of the human race".[184] According to the philosopher Nick Bostrom, for almost any goals that a sufficiently intelligent AI may have, it is instrumentally incentivized to protect itself from being shut down and to acquire more resources, as intermediary steps to better achieve these goals. Sentience or emotions are then not required for an advanced AI to be dangerous. In order to be safe for humanity, a superintelligence would have to be genuinely aligned with humanity's morality and values so that it is "fundamentally on our side".[185] The political scientist Charles T. Rubin argued that "any sufficiently advanced benevolence may be indistinguishable from malevolence" and warned that we should not be confident that intelligent machines will by default treat us favorably.[186]
+
+The opinions amongst experts and industry insiders are mixed, with sizable fractions both concerned and unconcerned by risk from eventual superintelligent AI.[187] Personalities such as Stephen Hawking, Bill Gates, Elon Musk have expressed concern about existential risk from AI.[188] In 2023, AI pioneers including Geoffrey Hinton, Yoshua Bengio, Demis Hassabis, and Sam Altman issued the joint statement that "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war"; some others such as Yann LeCun consider this to be unfounded.[189] Mark Zuckerberg said that AI will "unlock a huge amount of positive things", including curing diseases and improving the safety of self-driving cars.[190] Some experts have argued that the risks are too distant in the future to warrant research, or that humans will be valuable from the perspective of a superintelligent machine.[191] Rodney Brooks, in particular, said in 2014 that "malevolent" AI is still centuries away.[r]
+
+
+In fiction:
+Main article: Artificial intelligence in fiction
+Thought-capable artificial beings have appeared as storytelling devices since antiquity,[208] and have been a persistent theme in science fiction.[209]
+
+A common trope in these works began with Mary Shelley's Frankenstein, where a human creation becomes a threat to its masters. This includes such works as Arthur C. Clarke's and Stanley Kubrick's 2001: A Space Odyssey (both 1968), with HAL 9000, the murderous computer in charge of the Discovery One spaceship, as well as The Terminator (1984) and The Matrix (1999). In contrast, the rare loyal robots such as Gort from The Day the Earth Stood Still (1951) and Bishop from Aliens (1986) are less prominent in popular culture.
+
+Isaac Asimov introduced the Three Laws of Robotics in many books and stories, most notably the "Multivac" series about a super-intelligent computer of the same name. Asimov's laws are often brought up during lay discussions of machine ethics;[211] while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity.
+
+Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence.
