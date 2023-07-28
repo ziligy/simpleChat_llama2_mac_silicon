@@ -68,7 +68,7 @@ Define MODEL_PATH in *constants.py* to set the location and name of the model yo
 (e.g in *constants.py*) MODEL_PATH = os.path.expanduser( '~' ) + "/Models/llama-2-13b-chat.ggmlv3.q4_1.bin"
 
 
-## Starting the Gradio Server
+## Starting the Chat on Gradio Server
 
 ```shell
 gradio app.py
@@ -77,7 +77,7 @@ gradio app.py
 You should see:
 *Running on local URL:  http://127.0.0.1:7861*
 
-cmd + click on the link to start the UI in your browser
+cmd + click on the link to start the Chat UI in your browser
 
 ## Instructions for optionally ingesting your own dataset
 
