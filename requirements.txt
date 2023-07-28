@@ -1,4 +1,3 @@
-# accelerate
 pdfminer.six==20221105
 InstructorEmbedding
 chromadb==0.3.22
