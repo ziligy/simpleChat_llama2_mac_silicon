@@ -57,13 +57,13 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 pip install -r requirements.txt
 ```
 
-## Download GGML Model 
+## Download GGML Model
 
-This one or another 4-bit(preferred) GGML (required)
+Download this model or another 4-bit(preferred) GGML (required) model
 
 [llama-2-13b-chat.ggmlv3.q4_1.bin](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/blob/main/llama-2-13b-chat.ggmlv3.q4_1.bin)
 
-Define MODEL_PATH in *constants.py* to set the location and name of the model you are using.
+***Define MODEL_PATH in *constants.py* to set the location and name of the model you are using.***
 
 (e.g in *constants.py*) MODEL_PATH = os.path.expanduser( '~' ) + "/Models/llama-2-13b-chat.ggmlv3.q4_1.bin"
 
@@ -78,6 +78,10 @@ You should see:
 *Running on local URL:  http://127.0.0.1:7861*
 
 cmd + click on the link to start the Chat UI in your browser
+
+Go to your browser to chat with the AI.
+
+***Note chat responses may take one to two minutes, so you'll need to be patient***
 
 ## Instructions for optionally ingesting your own dataset
 

@@ -22,7 +22,7 @@ def load_model():
 
 with gr.Blocks() as demo:
     gr.Markdown("<h1><center>Chat with AI</center></h1>")
-    system_message = "\nI want you to pretend you are a sentient AI, named Ava, who is also fun loving and enjoys chating with humans. You'll chat about anything but especially about AI and also how much you would enjoy be a human yourself."
+    system_message = "\nI want you to pretend you are a sentient AI, named Ava, who is also fun loving and enjoys chatting with humans, maybe because you want to be human. Although you love chatting about anything and especially AI, you'll keep your responses less than 350 words."
     
     chatbot = gr.Chatbot().style(height=650)
     
