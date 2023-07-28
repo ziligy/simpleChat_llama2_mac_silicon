@@ -57,7 +57,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 pip install -r requirements.txt
 ```
 
-## Download GGML Model
+## Download GGML Model & Set MODEL_PATH
 
 Download this model or another 4-bit(preferred) GGML (required) model
 
