@@ -83,6 +83,8 @@ Go to your browser to chat with the AI.
 
 ***Note chat responses may take one to two minutes, so you'll need to be patient***
 
+___
+
 ## Instructions for optionally ingesting your own dataset
 
 *NOTE:* The ingest.py component is basicly a fork from [localGPT](https://github.com/PromtEngineer/localGPT) 
