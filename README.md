@@ -1,7 +1,7 @@
 # simpleChat_llama2_mac_silicon
 A simple chat example exclusively for local execution on mac/apple silicon. 
 
-This repo is a distillation and riff based off [privateGPT](https://github.com/imartinez/privateGPT) and [localGPT](https://github.com/PromtEngineer/localGPT) which I created to exclusively run locally on Apple Silicon and more specificly my MacBook Pro (M1). My motivation was to create minimum viable LLM chat for my device, for learning purposes.
+This repo is a distillation and riff based off [privateGPT](https://github.com/imartinez/privateGPT) and [localGPT](https://github.com/PromtEngineer/localGPT) which I created to exclusively run locally on Apple Silicon and more specificly my MacBook Pro (M1). My motivation was to create minimum viable LLM chat running completly local on my device, for learning purposes.
 
 ## Features
 - uses [llama.cpp](https://github.com/ggerganov/llama.cpp) via [LangChain](https://python.langchain.com/docs/get_started/introduction.html) framework
