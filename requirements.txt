@@ -1,6 +1,5 @@
-# pdfminer.six==20221105
-# InstructorEmbedding
-# sentence-transformers
-# docx2txt
 # accelerate
-
+pdfminer.six==20221105
+InstructorEmbedding
+chromadb==0.3.22
+sentence-transformers
