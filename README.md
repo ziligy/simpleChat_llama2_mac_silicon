@@ -79,7 +79,7 @@ You should see:
 
 cmd + click on the link to start the UI in your browser
 
-## Instructions for ingesting your own dataset
+## Instructions for optionally ingesting your own dataset
 
 *NOTE:* The ingest.py component is basicly a fork from [localGPT](https://github.com/PromtEngineer/localGPT) 
 
