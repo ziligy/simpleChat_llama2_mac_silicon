@@ -2,3 +2,4 @@ pdfminer.six==20221105
 InstructorEmbedding
 chromadb==0.3.22
 sentence-transformers
+gradio==3.38.0

@@ -33,18 +33,6 @@ cd simpleChat
 conda install -c conda-forge langchain 
 ```
 
-*Gradio*
-
-```shell
-conda install -c conda-forge gradio
-```
-
-*Metal acceleration* ([reference](https://developer.apple.com/metal/pytorch/))
-
-```shell
-conda install pytorch torchvision torchaudio -c pytorch-nightly
-```
-
 *upgrade llama-cpp-python for Metal*
 
 ```shell
@@ -82,6 +70,8 @@ cmd + click on the link to start the Chat UI in your browser
 Go to your browser to chat with the AI.
 
 ***Note chat responses may take one to two minutes, so you'll need to be patient***
+
+___
 
 ## Instructions for optionally ingesting your own dataset
 
