@@ -3,7 +3,7 @@ A simple chat example with embeddings, exclusively for local execution on mac/ap
 
 This repo is a distillation and riff based off [privateGPT](https://github.com/imartinez/privateGPT) and [localGPT](https://github.com/PromtEngineer/localGPT) which I created to exclusively run locally on Apple Silicon and more specificly my MacBook Pro (M1). My motivation was to create minimum viable LLM chat running completly local on my device, for learning purposes.
 
-<img src="https://github.com/ziligy/simpleChat_llama2_mac_silicon/blob/main/example/example_chat_screen.png" alt="SimpleChat by ziligy" height="700" align="left">
+<img src="https://github.com/ziligy/simpleChat_llama2_mac_silicon/blob/main/example/example_chat_screen.png" alt="SimpleChat by ziligy" height="535" align="left">
 
 ## Features
 - LlamaCpp from [llama.cpp](https://github.com/ggerganov/llama.cpp)
