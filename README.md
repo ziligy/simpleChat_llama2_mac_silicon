@@ -35,13 +35,13 @@ cd simpleChat
 
 *LangChain*
 ```shell
-conda install -c conda-forge langchain 
+conda install -c conda-forge langchain==0.0.239
 ```
 
 *upgrade llama-cpp-python for Metal*
 
 ```shell
-CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
+CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python==0.1.77 --no-cache-dir
 ```
 
 *requirements.txt*

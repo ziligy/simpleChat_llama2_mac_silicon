@@ -1,5 +1,6 @@
 pdfminer.six==20221105
-InstructorEmbedding
+instructorembedding==1.0.1
 chromadb==0.3.22
-sentence-transformers
+sentence-transformers==2.2.2
 gradio==3.38.0
+pandas==2.0.3
