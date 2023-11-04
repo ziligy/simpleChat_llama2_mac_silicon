@@ -1,4 +1,7 @@
 # simpleChat_llama2_mac_silicon
+
+## ** NOTE ** I've archived this repo, as it's aged-out!  🤪🤪🤪🤪🤪
+
 A simple chat app with embeddings and vector database, exclusively for local execution on mac/apple silicon. 
 
 This repo is a distillation and riff based off [privateGPT](https://github.com/imartinez/privateGPT) and [localGPT](https://github.com/PromtEngineer/localGPT) which I created to exclusively run locally on Apple Silicon and more specificly my MacBook Pro (M1). My motivation was to create minimum viable LLM chat running completly local on my device, for learning purposes.
